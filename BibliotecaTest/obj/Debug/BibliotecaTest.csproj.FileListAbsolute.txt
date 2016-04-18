@@ -1,0 +1,5 @@
+C:\Git\CSharp\Biblioteca\BibliotecaTest\bin\Debug\BibliotecaTest.dll
+C:\Git\CSharp\Biblioteca\BibliotecaTest\bin\Debug\BibliotecaTest.pdb
+C:\Git\CSharp\Biblioteca\BibliotecaTest\obj\Debug\BibliotecaTest.csprojResolveAssemblyReference.cache
+C:\Git\CSharp\Biblioteca\BibliotecaTest\obj\Debug\BibliotecaTest.dll
+C:\Git\CSharp\Biblioteca\BibliotecaTest\obj\Debug\BibliotecaTest.pdb

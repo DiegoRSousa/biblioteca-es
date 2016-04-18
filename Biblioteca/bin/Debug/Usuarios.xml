@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<usuarios>
+  <usuario id="99adb8f5-7ec3-468d-8cd5-1e84e6503a60" matricula="123" nome="Diego Rodrigues de Sousa" senha="123" telefone="83" email="diegors90@gmail.com" />
+  <usuario id="479917f1-eeea-439f-96b5-db46e9f706a4" matricula="321" nome="João" senha="321" telefone="(83) 99637-9424" email="joao@mail.com" />
+</usuarios>

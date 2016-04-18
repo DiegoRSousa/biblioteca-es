@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57BA9D3C-491C-429B-B77B-C46C355A0505}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Biblioteca</RootNamespace>
+    <AssemblyName>Biblioteca</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\DevolucaoController.cs" />
+    <Compile Include="Controller\EmprestimoController.cs" />
+    <Compile Include="Controller\LivroController.cs" />
+    <Compile Include="Controller\ReservaController.cs" />
+    <Compile Include="Controller\UsuarioController.cs" />
+    <Compile Include="FormBusca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBusca.Designer.cs">
+      <DependentUpon>FormBusca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfirmaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfirmaUsuario.Designer.cs">
+      <DependentUpon>FormConfirmaUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfirmaUsuarioReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfirmaUsuarioReserva.Designer.cs">
+      <DependentUpon>FormConfirmaUsuarioReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDevolucao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDevolucao.Designer.cs">
+      <DependentUpon>FormDevolucao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmprestimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmprestimo.Designer.cs">
+      <DependentUpon>FormEmprestimo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLivro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLivro.Designer.cs">
+      <DependentUpon>FormLivro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReserva.Designer.cs">
+      <DependentUpon>FormReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUsuario.Designer.cs">
+      <DependentUpon>FormUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUsuarioDevolucao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUsuarioDevolucao.Designer.cs">
+      <DependentUpon>FormUsuarioDevolucao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Devolucao.cs" />
+    <Compile Include="Model\Emprestimo.cs" />
+    <Compile Include="Model\Livro.cs" />
+    <Compile Include="Model\Reserva.cs" />
+    <Compile Include="Model\Usuario.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\DevolucaoRepository.cs" />
+    <Compile Include="Repository\EmprestimoRepository.cs" />
+    <Compile Include="Repository\LivroRepository.cs" />
+    <Compile Include="Repository\ReservaRepository.cs" />
+    <Compile Include="Repository\UsuarioRepository.cs" />
+    <Compile Include="Service\Calculadora.cs" />
+    <EmbeddedResource Include="FormBusca.resx">
+      <DependentUpon>FormBusca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConfirmaUsuario.resx">
+      <DependentUpon>FormConfirmaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConfirmaUsuarioReserva.resx">
+      <DependentUpon>FormConfirmaUsuarioReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDevolucao.resx">
+      <DependentUpon>FormDevolucao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmprestimo.resx">
+      <DependentUpon>FormEmprestimo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLivro.resx">
+      <DependentUpon>FormLivro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReserva.resx">
+      <DependentUpon>FormReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUsuario.resx">
+      <DependentUpon>FormUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUsuarioDevolucao.resx">
+      <DependentUpon>FormUsuarioDevolucao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
