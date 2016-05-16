@@ -31,7 +31,6 @@ namespace Biblioteca
             try
             {
                 var usuario = usuarioController.PorMatricula(txtMatricula.Text);
-
                 if (usuario.Senha == txtSenha.Text)
                 {
                     new FormEmprestimo(emprestimoController, usuario,

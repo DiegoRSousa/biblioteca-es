@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <livros>
-  <livro id="99adb8f5-7ec3-468d-8cd5-1e84e6503a60" codigo="014325" titulo="TDD no mundo real" edicao="1º" autor="Aniche, Mauricio" reservado="False" />
-  <livro id="23196f14-3317-41ac-b3de-5a8ce87d4f90" codigo="011225" titulo="Engenharia de Software" edicao="8º" autor="Sommerville, Ian" reservado="False" />
+  <livro id="23196f14-3317-41ac-b3de-5a8ce87d4f90" codigo="011225" titulo="Engenharia de Software" edicao="9º" autor="Sommerville, Ian" reservado="false" />
   <livro id="2de01982-ee6c-4430-96e0-54e83810f93c" codigo="123" titulo="Spring MVC" edicao="1" autor="Normandes" reservado="true" />
 </livros>

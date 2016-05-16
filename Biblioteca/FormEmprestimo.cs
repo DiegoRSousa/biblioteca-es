@@ -20,7 +20,6 @@ namespace Biblioteca
             this.usuario = usuario;
             this.livroController = livroController;
             InicializaComboBox();
-
             txtUsuario.Text = this.usuario.Nome;
             txtMatricula.Text = this.usuario.Matricula;
             dtpPrevista.Value = Calculadora.DataPrevista(dtpRetirada.Value);

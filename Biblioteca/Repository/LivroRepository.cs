@@ -121,6 +121,7 @@ namespace Biblioteca.Repository
         {
             this.xml = XElement.Load(arquivo);
             this.elemento = xml.Elements().Where(p => p.Attribute("id").Value.Equals(id.ToString())).First();
+            
             if (elemento != null)
             {
                 return new Livro()

@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <emprestimos>
-  <emprestimo id="b5c41143-d678-4fec-8bb9-cd6b0d7539f5" usuario="99adb8f5-7ec3-468d-8cd5-1e84e6503a60" livro="99adb8f5-7ec3-468d-8cd5-1e84e6503a60" data-retirada="17/03/2016 23:11:30" data-prevista="09/04/2016 23:11:30" finalizado="true" />
-  <emprestimo id="acfb2de7-dcc3-4357-95ef-6e5a41c055d5" usuario="479917f1-eeea-439f-96b5-db46e9f706a4" livro="23196f14-3317-41ac-b3de-5a8ce87d4f90" data-retirada="17/04/2016 23:12:27" data-prevista="09/05/2016 23:12:27" finalizado="False" />
+  <emprestimo id="cf226841-67e2-4ebd-955a-f629bcc6db17" usuario="99adb8f5-7ec3-468d-8cd5-1e84e6503a60" livro="23196f14-3317-41ac-b3de-5a8ce87d4f90" data-retirada="16/05/2016 13:16:59" data-prevista="07/06/2016 13:16:59" finalizado="true" />
 </emprestimos>

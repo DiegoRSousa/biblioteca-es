@@ -16,3 +16,4 @@ C:\Git\CSharp\Biblioteca\Biblioteca\obj\Debug\Biblioteca.FormDevolucao.resources
 C:\Git\CSharp\Biblioteca\Biblioteca\obj\Debug\Biblioteca.FormUsuarioDevolucao.resources
 C:\Git\CSharp\Biblioteca\Biblioteca\obj\Debug\Biblioteca.FormUsuarioReserva.resources
 C:\Git\CSharp\Biblioteca\Biblioteca\obj\Debug\Biblioteca.FormConfirmaUsuarioReserva.resources
+C:\Git\CSharp\Biblioteca\Biblioteca\obj\Debug\Biblioteca.FormLogin.resources
