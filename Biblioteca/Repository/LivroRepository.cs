@@ -20,6 +20,7 @@ namespace Biblioteca.Repository
             elemento.Add(new XAttribute("titulo", livro.Titulo.ToString()));
             elemento.Add(new XAttribute("edicao", livro.Edicao.ToString()));
             elemento.Add(new XAttribute("autor", livro.Autor.ToString()));
+            elemento.Add(new XAttribute("reservado", livro.Reservado.ToString()));
 
             this.xml = XElement.Load(arquivo);
             this.xml.Add(elemento);

@@ -35,6 +35,7 @@ namespace Biblioteca
                     Titulo = txtTitulo.Text,
                     Edicao = txtEdicao.Text,
                     Autor = txtAutor.Text,
+                    Reservado = false
 
                 };
                 if (txtId.Text == string.Empty)
