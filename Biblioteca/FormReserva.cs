@@ -64,17 +64,7 @@ namespace Biblioteca
 
         private void btnExcluir_Click(object sender, EventArgs e)
         {
-            if (txtId.Text == string.Empty)
-            {
-                MessageBox.Show("Selecione a reserva a ser excluida!");
-            }
-            else
-            {
-                this.reservaController.Remover(new Reserva() { Id = new Guid(txtId.Text) });
-                livro.Reservado = false;
-                livroController.Atualizar(livro);
-                AtualizaDataGridView();
-            }
+            
         }
 
         private void AtualizaDataGridView()

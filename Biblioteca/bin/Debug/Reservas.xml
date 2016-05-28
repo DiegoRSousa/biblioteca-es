@@ -1,4 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <reservas>
   <reserva id="3404b50c-c444-4cc0-9605-2b9641e644da" data="16/05/2016 13:16:44" usuario="99adb8f5-7ec3-468d-8cd5-1e84e6503a60" livro="2de01982-ee6c-4430-96e0-54e83810f93c" />
+  <reserva id="02b06f7b-340a-453c-8ec3-2cee72342a3d" data="27/05/2016 13:35:46" usuario="99adb8f5-7ec3-468d-8cd5-1e84e6503a60" livro="23196f14-3317-41ac-b3de-5a8ce87d4f90" />
+  <reserva id="4f525ab8-210a-406f-b6a3-60ae8a7a82b1" data="27/05/2016 21:14:21" usuario="99adb8f5-7ec3-468d-8cd5-1e84e6503a60" livro="ea70b0e1-48c3-49a0-9bfe-0eb5b4630136" />
 </reservas>
